@@ -20,7 +20,7 @@ class Student extends Person {
 	}
 
 	study(){
-		return this.name " is studying"
+		return console.log(this.name+" is studying")
 	}
 	
 }
@@ -33,7 +33,7 @@ class Teacher extends Person {
 	}
 
 	teach(){
-		return this.name" is teaching"
+		return console.log(this.name+" is teaching")
 	}
 }
 
